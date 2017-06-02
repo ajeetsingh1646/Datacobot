@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    border-top: 3px solid purple;
+}
+
+.dropdown-menu {
+    padding: 1px 0;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: orangered;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: orangered;
+}
+
+.dropdown-menu>li>a:hover {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: orangered;
+    white-space: nowrap;
+}
+
+.jumbotron {
+    background: linear-gradient(yellow,lightgreen);
+    padding: 10px;
+    float: left;
+
+.demoform{
+    float: left;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.demof {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+hr {
+    margin: 0px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.dropdown-large {
+    position: static !important;
+}
+
+.dropdown-menu-large {
+    margin-left: 0px;
+    margin-right: 1px;
+    padding: 5px 0px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-left: 3%;
+    border-top: 3px solid orange;
+}
+
+.dropdown-menu-large>li>ul {
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu-large>li>ul>li {
+    list-style: none;
+}
+
+.dropdown-menu-large>li>ul>li>a {
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    color: #333333;
+    white-space: nowrap;
+}
+
+.dropdown-menu-large>li ul>li>a:hover,
+.dropdown-menu-large>li ul>li>a:focus {
+    text-decoration: none;
+    color: orangered;
+    background-color: #f5f5f5;
+}
+
+.dropdown-menu-large .disabled>a,
+.dropdown-menu-large .disabled>a:hover,
+.dropdown-menu-large .disabled>a:focus {
+    color: #999999;
+}
+
+.dropdown-menu-large .disabled>a:hover,
+.dropdown-menu-large .disabled>a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    cursor: not-allowed;
+}
+
+.dropdown-menu-large .dropdown-header {
+    color: #428bca;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .dropdown-menu-large {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .dropdown-menu-large>li {
+        margin-bottom: 30px;
+    }
+    .dropdown-menu-large>li:last-child {
+        margin-bottom: 0;
+    }
+    .dropdown-menu-large .dropdown-header {
+        padding: 3px 15px !important;
+    }
+}
+
+img {
+    border-radius: 5px;
+}
+
+
+.backlogo{
+    position: absolute;
+	
+    z-index: -10;
+}
+.logo{
+	left: 25%;
+	color:White;
+}
+ 
+.vidbut{
+    position: absolute;
+    margin-top: 0px;
+    padding: 0px;
+    display: block;
+    z-index: 5;
+}
+
+.mod {
+    display: block;
+    position: absolute;
+}
+
+.modal-header {
+    padding-top: 0px;
+}
+
+.modal-body {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.video-section .pattern-overlay {
+    background-color: rgba(71, 71, 71, 0.59);
+    padding: 110px 0 32px;
+    min-height: 496px;
+    /* Incase of overlay problems just increase the min-height*/
+}
+
+.video-section h1,
+.video-section h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.video-section h1 {
+    font-size: 110px;
+    font-family: 'Buenard', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 40px auto 0px;
+    text-shadow: 1px 1px 1px #000;
+    -webkit-text-shadow: 1px 1px 1px #000;
+    -moz-text-shadow: 1px 1px 1px #000;
+}
+
+.video-section h3 {
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 0px auto 15px;
+}
+
+.video-section .buttonBar {
+    display: none;
+}
+
+.player,
+.vid {
+    font-size: 1px;
+    height: 200px;
+}
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+.bg-lightgray
+{
+    background-color:LightGray;
+}
